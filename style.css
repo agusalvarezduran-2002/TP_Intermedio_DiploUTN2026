@@ -18,24 +18,31 @@ header {
     justify-content: space-between;
     padding: 1rem;
 }
-header__nav {
+.header__nav {
     display: none;
 }
-header__botones {
+.header__botones {
     display: none;
 }
-header__logo {
+.header__logo {
     display: flex;
     align-items: center;
     gap: 0.5rem;
 }
-header__titulo {
+.header__titulo {
     font-size: 1.25rem;
     font-weight: 600;
 }
-header__menu{
+.header__menu{
     background-color: transparent;
     border: none;
     color: #fff;
     font-size: 1.5rem;
+    cursor: pointer;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
 }

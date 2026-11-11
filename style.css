@@ -133,3 +133,40 @@ header {
     border-radius: 2rem;
     text-align: center;
 }
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem 1rem;
+    text-align: center;
+}
+.footer__redes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+}
+.footer__item {
+    font-size: 1.25rem;
+}
+.footer__texto {
+    font-size: 0.875rem;
+}
+.footer__enlace {
+    font-size: 0.875rem;
+    text-decoration: underline;
+}
+.footer__idioma {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #212121;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    font-size: 0.875rem;
+}
+.footer__separador {
+    color: #8e8e8e;
+}

@@ -146,7 +146,6 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
-    list-style: none;
 }
 .footer__item {
     font-size: 1.25rem;

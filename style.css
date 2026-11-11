@@ -115,6 +115,10 @@ header {
 .tarjeta__imagen {
     border-radius: 0.75rem;
 }
+.tarjeta__titulo {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
 .tarjeta__subtitulo { 
     font-style: italic;
 }
